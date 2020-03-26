@@ -1,0 +1,113 @@
+
+1-apt-cache search something-utk search nama package sebab klu kita nak install satu app dr terminal kita kene tahu nama package dia dulu
+
+2-sudo apt-get install something(nama package yang tepat)
+
+3-sudo apt-get remove something-uninstall
+
+4-touch wow.html yeah.js hihi.css-ni contoh touch buat 3 file terus
+
+5-pwd-utk check current directories we are working on
+
+6-mkdir something-make a new directories
+
+7-rmdir something-remove directories
+
+8-cd/cd ~-to back to home directories     /cd ..-change to previous directories
+
+9-cd something-to change to that directories
+
+10-ls-to check all the files in that directories
+
+11-cat >something.txt-to create+write what we want in that file ,ctrld nak stop tulis,ctrlz nak save n stop terus
+
+12-cat something-to read all things in that directories
+
+13-less something.txt-to ensure we can read all the text especially when the text is so long and we can read it while the white things that folllows us every time we want to type something follow whereever we want to read
+
+14-xdg-open (package name)-example xdg-open qayyis.txt
+
+15-ls -l-to check the time one file is made
+
+16-touch *.txt-to update/to change all the time of the file creation on that directories so that it is more convenient when we want to backup our device
+
+17-which-to check one file directories-example-which google-chrome
+
+18-rm something -to remove file
+
+19-ping www.google.com -c 3-to ensure our network is ok when we firstly buy the devices and to check what is the problem when we cant open the browser which either network/internet/the browser itself
+
+--c 3-to limit the tack shown on our terminal cuz 3 tack is already enough to check the browser
+
+www.google.com can be change to other website
+
+dan klu kita x tekan -c 3 dia akan jadi pnjg dan cara nak stopkan tekan ctrl+c
+
+20- sudo testdisk /dev/nvme0n1-to open testdisk on our desktop -testdisk is for recover deleted file
+
+21-sudo blkid-to check the partition available in our desktop and to check all the disk available on our laptop and the uuid is very important when we accidentally doing something wrong with the partition/the partition doesnt auto mount
+
+22-ls -la-to check all the files including hidden files
+
+23-cat >> file.txt-to add point to our file,it is already selang satu baris masa nak mula2 tulis
+
+24-mkdir-bole buat directories byk2
+
+25-clear=ctrl+l
+
+26-cp something(file that already exist) something(new file)-copy file
+
+27-klau permission denied try command tu kat dpn tu letak sudo
+
+28-sudo -s-utk jadi root tu sendiri ,exit utk berhenti jd root
+
+29-su (user lain)-utk masuk kt account org lain tp kene tahu password org tu ah patu nk keluar tekan exit
+
+30-sudo reboot-reboot the system
+
+31-sudo shutdown -h  now(whenever etc:-h 15)-it will shut down right now(shutdown in 15 min) biasanya utk klu dengar musik sblm tido n klau kita tutup terminal tu pon dia akan still do the shutdown
+
+32-klu nk cancel shutdown tekan-sudo shutdown -c
+
+33-man-manual tuk sume command yg ade contoh man ls/man firefox/ man sudo
+
+34-q for quit reading manual or something else
+
+35-fungsi huruf2-something -a-listing all files visible&hidden file
+                -          -h-add the file size that human can understang,etc:1.7k
+ ni sume utk ls                -l-listing long file wth detail info like owner name,last modified 
+                           -S-list sorting by size dia ganti default which is by name
+                           -t-sort by last modified time
+                           -r-utk reversekan file so klu kita nk cari file yg start dr huruf z baik rverse
+
+-patu huruf2 tu boleh gabung :cth ls -lr
+
+
+36-tab-dia akan completekan ape yg kau nk search/tulis-contoh kau dh tulis cd Dow dia akan terus jd download 
+
+37-head something-bole tgk first 10 line of the file
+
+38-klu dlm directories ada file or anything on it so we cant rmdir it kene guna command rm -r something
+
+39-mv something(old) something(new)-rename
+
+40-cd etc-nk configure pape ko nak
+
+41-cp -r dir/ dir2-copy directory,r tu utk force buat bende
+
+38-tail something-bole tgk last 10 line of the fil
+
+42-git --version-check git version
+
+43-git config --list-utk check email/username dll
+
+44-git help something-dia akan bukak manual utk bende tu cth git help config/git help add
+
+45-git init-dia akan track perkembangan file2 dlm directory tertentu maknanya first skali kita kene tukar ke directories yg kita nak la kene cd dulu
+
+46-patu cana nak tahu git dh track ke blom-tekan ls -la soo akan nmpk .git maknanya git dh track
+
+47-rm -rf .git-xnk dh ditrack oleh git
+
+48-
+
